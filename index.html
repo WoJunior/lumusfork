@@ -16,7 +16,7 @@
 <body class="font-[Sora] bg-emerald-600 text-gray-800">
 
   <!-- HEADER -->
-  <header class="bg-emerald-600 text-white fixed w-full top-0 left-0 z-50 shadow-md">
+  <header class="bg-emerald-600 text-white fixed w-full top-0 left-0 z-50 shadow-md max-md:hidden">
     <div class="max-w-6xl mx-auto flex justify-between items-center py-6 px-4">
       <img src="./assets/img/logo.svg" alt="logo do projeto Lumos" class="h-[40px]">
       <nav>
@@ -29,17 +29,17 @@
     </div>
   </header>
 
-  <main class="pt-32">
+  <main class="pt-32 max-md:pt-0">
 
     <!-- HERO -->
-    <section class="bg-gradient-to-b from-emerald-600 to-emerald-500 text-white pt-16 pb-64 relative">
+    <section class="bg-gradient-to-b from-emerald-600 to-emerald-500 text-white pt-16 pb-64 relative max-md:px-4 max-md:pt-64 max-md:pb-72">
 
-        <div class="flex max-w-6xl mx-auto text-center px-4" data-aos="fade-up">
+        <div class="flex max-w-6xl mx-auto text-center px-4 max-md:flex-col" data-aos="fade-up">
             <span class="mx-auto flex flex-col justify-center items-center gap-2">
-                <h1 class="text-5xl max-w-2xl font-bold text-center mb-12">LUMOS: Tecnologia que respira pela cidade</h1>
+                <h1 class="text-5xl max-w-2xl font-bold text-center mb-12 max-md:text-3xl">LUMOS: Tecnologia que respira pela cidade</h1>
                 <p class="text-center max-w-xl text-lg">Um bioreator vertical com algas kelp geneticamente otimizadas, capaz de capturar CO₂ e liberar oxigênio diretamente em áreas urbanas.</p>
             </span>
-            <img class="mx-auto max-w-[400px] rounded-lg shadow-2xl hover:scale-115 hover:shadow-3xl transition-all duration-300" src="assets/img/desenvolvimentosustentavel.jpg" alt="">
+            <img class="mx-auto max-w-[400px] rounded-lg shadow-2xl hover:scale-115 hover:shadow-3xl transition-all duration-300 max-md:mt-8" src="assets/img/desenvolvimentosustentavel.jpg" alt="">
         </div>
 
       <!-- SVG divider -->
@@ -50,11 +50,11 @@
     </section>
 
     <!-- FUNCIONAMENTO -->
-    <section id="funcionamento" class="bg-white text-gray-800 pt-20 pb-64 relative">
+    <section id="funcionamento" class="bg-white text-gray-800 pt-20 pb-64 relative max-md:px-4 max-md:py-48">
       <div class="max-w-6xl mx-auto px-4 text-center" data-aos="fade-up">
-        <h2 class="text-5xl font-bold mb-12">Como o Lumos transforma ar poluído em ar limpo?</h2>
+        <h2 class="text-5xl font-bold mb-12 max-md:text-3xl">Como o Lumos transforma ar poluído em ar limpo?</h2>
         <p class="max-w-3xl mx-auto text-lg mb-16">A luz atravessa o vidro fotovoltaico e ativa o processo de fotossíntese. As algas kelp absorvem o CO₂ do ar, liberam oxigênio e acumulam carbono que será transformado em biomassa. Uma IA monitora o sistema e mantém tudo funcionando com eficiência.</p>
-        <ul class="flex flex-wrap justify-center gap-12">
+        <ul class="flex flex-wrap justify-center gap-12 max-md:flex-col max-md:items-center max-md:gap-16">
           <li class="flex flex-col gap-3 items-center max-w-[230px]" data-aos="fade-up" data-aos-delay="200">
             <i class="fa-solid fa-wind text-4xl text-emerald-400"></i>
             <h3 class="text-xl font-bold text-center">Entrada de ar estratégica</h3>
@@ -81,10 +81,10 @@
     </section>
 
     <!-- RESULTADOS -->
-    <section id="resultados" class="bg-emerald-600 text-white pt-40 pb-80 relative">
+    <section id="resultados" class="bg-emerald-600 text-white pt-40 pb-80 relative max-md:px-4 max-md:py-64">
       <div class="max-w-6xl mx-auto px-4 text-center" data-aos="fade-up">
-        <h2 class="text-5xl font-bold mb-12">Resultados diretos do Lumos</h2>
-        <ul class="flex flex-wrap justify-center gap-12 mt-12">
+        <h2 class="text-5xl font-bold mb-12 max-md:text-3xl">Resultados diretos do Lumos</h2>
+        <ul class="flex flex-wrap justify-center gap-12 mt-12 max-md:flex-col max-md:items-center max-md:gap-16">
           <li class="flex flex-col gap-3 items-center max-w-[230px]" data-aos="zoom-in" data-aos-delay="200">
             <h3 class="text-xl font-bold text-center">≈ 264 kg de CO₂ capturados por ano</h3>
             <p class="text-center">O CO₂ é transformado em biomassa.</p>
@@ -108,11 +108,11 @@
     </section>
 
     <!-- PROPÓSITO -->
-    <section id="proposito" class="bg-white text-gray-800 py-52">
+    <section id="proposito" class="bg-white text-gray-800 py-52 max-md:px-4 max-md:py-52">
       <div class="max-w-6xl mx-auto px-4 text-center" data-aos="fade-up">
-        <h2 class="text-5xl font-bold mb-12">Lumos não substitui o reflorestamento</h2>
+        <h2 class="text-5xl font-bold mb-12 max-md:text-3xl">Lumos não substitui o reflorestamento</h2>
         <p class="max-w-3xl mx-auto text-lg mb-12">A solução real e definitiva sempre será plantar árvores. A Lumos existe apenas como paliativo, para reduzir o CO₂ enquanto o reflorestamento ainda não pode acontecer — seja por falta de espaço, solo preparado ou condições ambientais ideais.</p>
-        <ul class="flex flex-wrap justify-center gap-12 mt-12">
+        <ul class="flex flex-wrap justify-center gap-12 mt-12 max-md:flex-col max-md:items-center max-md:gap-16">
           <li class="flex flex-col gap-3 items-center max-w-[230px]" data-aos="fade-up" data-aos-delay="200">
             <h3 class="text-4xl font-bold text-center">1</h3>
             <p class="text-center">Instala o Lumos onde plantar ainda não é viável.</p>
@@ -132,7 +132,7 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="bg-emerald-600 text-white py-12 text-center">
+  <footer class="bg-emerald-600 text-white py-12 text-center max-md:px-4">
     <p class="max-w-6xl mx-auto font-medium text-lg">© 2025 Lumos. Este projeto é de uso educacional e não pode ser reproduzido ou distribuído sem autorização.</p>
   </footer>
 
